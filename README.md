@@ -2,6 +2,11 @@
 
 Detailed installation instruction for the system. The touchless feature was made possible by [MediaPipe Hands Model](https://google.github.io/mediapipe/solutions/hands)
 
+## Technologies
+1. VueJS
+2. Laravel
+3. MediaPipe Hands Model
+
 ## Software Requirements
 1. [Xampp](https://www.apachefriends.org/download.html)
  - PHP 8.0^
@@ -13,6 +18,7 @@ Detailed installation instruction for the system. The touchless feature was made
 1. Intel Core i5 11th Gen and above
 2. Atleast 8GB RAM
 3. NVIDIA Video Card Geoforce GTX 1060 (Optional but recommended for better performance)
+4. Camera (Wide Angle)
 
 ## How to run this system
 1. Navigate to capstone-fe (Management System) folder then open a terminal / command prompt and run the following command
@@ -76,8 +82,3 @@ If the backend url changes (Laravel) you may change the baseURL from the front-e
  - capstone-fe/src/store/base/index.js
  - capstone-fe/src/assets/js/envUrl.js
 ```
-
-## Technologies
-1. VueJS
-2. Laravel
-3. MediaPipe Hands Model

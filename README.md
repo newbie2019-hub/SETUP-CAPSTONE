@@ -24,10 +24,10 @@ Detailed installation instruction for the system. The touchless feature was made
  > npm run serve
  
  #To access check the url given after running the npm run serve command
- 
- ```
+```
 
 2. Create a database on localhost/phpmyadmin called 'touchless-info-kiosk'
+ 
  2.1 Navigate to capstone-be (Laravel - Backend) folder then open a terminal / command prompt and run the following command and open in the browser 
 ```bash
 

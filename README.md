@@ -3,8 +3,9 @@
 Detailed installation instruction for the system. The touchless feature was made possible by [MediaPipe Hands Model](https://google.github.io/mediapipe/solutions/hands)
 
 ## Software Requirements
-1. [Xampp/Wampp](https://www.apachefriends.org/download.html)
+1. [Xampp](https://www.apachefriends.org/download.html)
  - PHP 8.0^
+ - MySql
 2. [Composer](https://getcomposer.org/Composer-Setup.exe)
 3. [Node](https://nodejs.org/en/download/) 
 
@@ -60,9 +61,14 @@ Detailed installation instruction for the system. The touchless feature was made
  #To access check the url given after running the npm run serve command and open in the browser
 ```
 
-# NOTES
-## Checkout the .env file for the configuration of the Laravel Project (capstone-be)
+# Configuration
+Checkout the .env file for the configuration of the Laravel Project (capstone-be)
     - DATABASE
 	  - DB_CONNECTION up to DB_PASSWORD
 	- EMAIL SERVICE - An error may occur for the approval/creation of account if this was not set properly
 	  - MAIL_MAILER up to MAIL_FROM_NAME
+	  
+If the backend url changes (Laravel) you may change the baseURL from the front-end on these following files:
+    - capstone-kiosk/src/store/base/index.js
+	- capstone-fe/src/store/base/index.js
+	- capstone-fe/src/assets/js/envUrl.js

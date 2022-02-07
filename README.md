@@ -45,6 +45,8 @@ Detailed installation instruction for the system. The touchless feature was made
  > composer install --ignore-platform-reqs
  
  #Migrate and Seed the Database
+ #This will create tables for the database and store the default data as well
+ #Checkout the Configuration Section for the accounts of the seeder
  > php artisan migrate --seed
  
  #Run the JWT Token (Tymon JWT was used for this system)
@@ -81,4 +83,10 @@ If the backend url changes (Laravel) you may change the baseURL from the front-e
  - capstone-kiosk/src/store/base/index.js
  - capstone-fe/src/store/base/index.js
  - capstone-fe/src/assets/js/envUrl.js
+```
+
+If you want to change the default accounts you may edit it on the seeders before migrating.
+```bash
+ - capstone-be/database/seeders/AdminAccountSeeder.php
+ - capstone-be/database/seeders/UserAccountSeeder.php
 ```

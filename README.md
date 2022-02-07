@@ -78,6 +78,6 @@ If the backend url changes (Laravel) you may change the baseURL from the front-e
 ```
 
 ## Technologies
-VueJS
-Laravel
-MediaPipe Hands Model
+1. VueJS
+2. Laravel
+3. MediaPipe Hands Model

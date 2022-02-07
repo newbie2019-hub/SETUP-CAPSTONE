@@ -25,10 +25,9 @@ Detailed installation instruction for the system. The touchless feature was made
  
  #To access check the url given after running the npm run serve command
 ```
-
-2. Create a database on localhost/phpmyadmin called 'touchless-info-kiosk'
- 
- 2.1 Navigate to capstone-be (Laravel - Backend) folder then open a terminal / command prompt and run the following command and open in the browser 
+2. Open Xampp and run Apache and MySql
+3. Create a database on localhost/phpmyadmin called 'touchless-info-kiosk'
+4. Navigate to capstone-be (Laravel - Backend) folder then open a terminal / command prompt and run the following command and open in the browser 
 ```bash
 
  #Install dependencies
@@ -48,9 +47,20 @@ Detailed installation instruction for the system. The touchless feature was made
  > php artisan serve
  
  #To access check the url given after running the npm run serve command and open in the browser
+```
+5. Navigate to capstone-kiosk (Kiosk - Touchless) folder then open a terminal / command prompt and run the following command and open in the browser 
+```bash
+
+ #Install dependencies
+ > npm install
  
+ #To run
+ > npm run serve
+ 
+ #To access check the url given after running the npm run serve command and open in the browser
 ```
 
+# NOTES
 ## Checkout the .env file for the configuration of the Laravel Project (capstone-be)
     - DATABASE
 	  - DB_CONNECTION up to DB_PASSWORD

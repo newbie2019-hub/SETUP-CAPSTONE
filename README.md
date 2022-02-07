@@ -63,12 +63,16 @@ Detailed installation instruction for the system. The touchless feature was made
 
 # Configuration
 Checkout the .env file for the configuration of the Laravel Project (capstone-be)
-    - DATABASE
-	  - DB_CONNECTION up to DB_PASSWORD
-	- EMAIL SERVICE - An error may occur for the approval/creation of account if this was not set properly
-	  - MAIL_MAILER up to MAIL_FROM_NAME
+```bash
+#DATABASE
+  - DB_CONNECTION up to DB_PASSWORD
+#EMAIL SERVICE - An error may occur for the approval/creation of account if this was not set properly
+  - MAIL_MAILER up to MAIL_FROM_NAME
+```
 	  
 If the backend url changes (Laravel) you may change the baseURL from the front-end on these following files:
-    - capstone-kiosk/src/store/base/index.js
-	- capstone-fe/src/store/base/index.js
-	- capstone-fe/src/assets/js/envUrl.js
+```bash
+ - capstone-kiosk/src/store/base/index.js
+ - capstone-fe/src/store/base/index.js
+ - capstone-fe/src/assets/js/envUrl.js
+```

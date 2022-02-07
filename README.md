@@ -76,3 +76,8 @@ If the backend url changes (Laravel) you may change the baseURL from the front-e
  - capstone-fe/src/store/base/index.js
  - capstone-fe/src/assets/js/envUrl.js
 ```
+
+## Technologies
+VueJS
+Laravel
+MediaPipe Hands Model
